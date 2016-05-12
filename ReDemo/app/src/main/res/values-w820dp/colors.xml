@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="all_background_color">#fff2f0f0</color>
+    <color name="item_product_list_pressed">#CCCCCC</color>
+    <color name="product_discount_price">#E31436</color>
+    <color name="login_title">#0d0c0c</color>
+    <color name="login_name">#FFFFFF</color>
+    <color name="forget_password">#9B9B9B</color>
+    <color name="login_QQ">#757575</color>
+    <color name="relacolor">#F1F1F1</color>
+    <color name="register_btn_get">#E31436</color>
+    <color name="bottom_menu">#fdfdfe</color>
+    <color name="login_text_short">#DDDBDB</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_shy">#757575</color>
+    <color name="text_bold">#3D3D3D</color>
+    <color name="text_warning">#E31436</color>
+    <color name="popback">#00F1F1F1</color>
+    <color name="poptitle">#9B9B9B</color>
+    <color name="pop_bt">#3095DE</color>
+    <color name="main_text">#4B4B4B</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="cash_bt_text_bg">#4A90E2</color>
+    <color name="bg">#F8F8FF</color>
+    <color name="text_coupon">#C1C1C1</color>
+
+
+
+</resources>

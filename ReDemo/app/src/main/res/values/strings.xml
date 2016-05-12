@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">海享购</string>
+    <string name="hint_login_phone">请输入11位手机号</string>
+    <string name="hint_login_pwd">请输入密码</string>
+    <string name="hint_register_pwd">密码,6-16位字母或数字</string>
+    <string name="hint_register_msg_code">请输入短信验证码</string>
+    <string name="text_login_btn">立即登录</string>
+    <string name="text_register_btn">立即注册</string>
+    <string name="text_is_bonded">保税直发</string>
+    <string name="text_qita_title">或使用合作账号登录</string>
+    <string name="text_forget_xiugai">修改密码</string>
+    <string name="text_user_bt_exit">退出登录</string>
+    <string name="text_tax">税费</string>
+    <string name="text_tax_tips">省钱贴士: 据海关规定, 订单总税额据海关规定, 订单总税额.</string>
+    <string name="text_add_to_cart">加入购物车</string>
+    <string name="hint_userinfor_name">请设置昵称</string>
+    <string name="text_forget_userinfor">确认修改</string>
+    <string name="text_bandphone_bt">确认绑定</string>
+    <string name="text_foot">暂无数据</string>
+    <string name="myfoot_bt">随便逛逛</string>
+    <string name="my_foot_side">删除</string>
+    <string name="text_cart_checked_count">已选商品%d件</string>
+    <string name="text_cart_products_price">商品总额: ￥%s</string>
+    <string name="text_cart_tax_price">订单关税: ￥%.2f</string>
+    <string name="text_cart_total_price">总计(不含运费): ￥%s</string>
+    <string name="text_fragment_notcoll">您还没有收藏任何商品</string>
+    <string name="text_fragment_notkonw">您还没有收藏任何知识</string>
+    <string name="text_fragment_nottitle">赶紧去逛逛吧</string>
+    <string name="text_fragment_nottitle_know">赶紧去长建识吧</string>
+    <string name="text_fragment_bt">去逛逛</string>
+    <string name="text_fragment_bt_know">长健识</string>
+    <string name="text_shopaddress">你还没有收货地址哦</string>
+    <string name="text_shopadress_add">快来加一个吧！</string>
+    <string name="text_shopadd_bt">新增地址簿</string>
+    <string name="text_adress_name">收货人姓名:</string>
+    <string name="text_address_jingshi">务必填写真实姓名!</string>
+    <string name="text_address_phonenumber">手机号码:</string>
+    <string name="text_rece_add">身份证号码:</string>
+    <string name="text_rece_add_jieshao">填写后,我们会做加密处理</string>
+    <string name="text_rece_city">省市区:</string>
+    <string name="text_dete_address">详细地址:</string>
+    <string name="text_default_adress">默认地址</string>
+    <string name="wo_bt_login">登录</string>
+    <string name="wo_bt_regest">注册</string>
+    <string name="userinfor_shouhuo">待收货</string>
+    <string name="userinfor_fukuan">待付款</string>
+    <string name="userinfor_fahuo">待发货</string>
+    <string name="userinfor_wancheng">已完成</string>
+    <string name="about_text">Android v1.1.0</string>
+    <string name="about_bitmap">扫一扫二维码</string>
+    <string name="about_bitmaos">小伙伴也拥有海享购吧</string>
+    <string name="fenxiang">分享给朋友</string>
+    <string name="default_search_hint">请输入搜索关键字</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coupon_bg_text">没有可用的优惠券~</string>
+    <string name="coupon_bg_exchange_text">请使用兑换码兑换~</string>
+
+
+    <string name="cube_mints_exit_tip">再按一次，退出程序</string>
+
+    <string name="cube_views_load_more_loading">加载中...</string>
+    <string name="cube_views_load_more_click_to_load_more">点击加载更多</string>
+    <string name="cube_views_load_more_loaded_no_more"></string>
+    <string name="cube_views_load_more_loaded_empty">数据为空</string>
+    <string name="cube_views_load_more_error">加载失败,点击重试</string>
+</resources>
