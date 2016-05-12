@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         activity_view_ptrloadmore.setLoadMoreHandler(new LoadMoreHandler() {
             @Override
             public void onLoadMore(LoadMoreContainer loadMoreContainer) {
-                workData();
+                //workData();
             }
         });
     }
