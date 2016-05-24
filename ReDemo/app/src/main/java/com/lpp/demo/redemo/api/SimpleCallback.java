@@ -32,7 +32,7 @@ public abstract class SimpleCallback<T> implements Callback<T> {
         if (swip_refresh != null) {
             swip_refresh.setRefreshing(false);
         }
-        // System.out.println(response.errorBody().toString());
+         //System.out.println(response.errorBody().toString()+"");
         if (response.isSuccess()) {
             onResponse(response.body(), response.code(), response.message());
         } else {

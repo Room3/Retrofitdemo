@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new SimpleCallback<Article>() {
             @Override
             public void onResponse(Article result, int code, String msg) {
-                Log.e("MainActivity", "result.getT1348648517839().get(1).getAds():" + result.getT1348648517839().get(2).getTitle());
+                Log.e("MainActivity", "result.getT1348648517839().get(1).getAds():" + result.getT1348648517839().get(2));
                 arrayList.addAll(result.getT1348648517839());
                 ArticleAdapter articleAdapter = new ArticleAdapter(MainActivity.this, arrayList);
                 listview.setAdapter(articleAdapter);
