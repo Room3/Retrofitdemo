@@ -1,10 +1,11 @@
 package com.lpp.demo.redemo;
 
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.ListView;
 
 import com.lpp.demo.redemo.adapter.ArticleAdapter;
@@ -15,6 +16,7 @@ import com.lpp.demo.redemo.bean.Article;
 import com.lpp.demo.redemo.widgets.loadmore.LoadMoreContainer;
 import com.lpp.demo.redemo.widgets.loadmore.LoadMoreHandler;
 import com.lpp.demo.redemo.widgets.loadmore.LoadMoreListViewContainer;
+import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import java.util.ArrayList;
 
@@ -34,7 +36,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        ///if (isApplyKitKatTranslucency()) {
+            setSystemBarTintDrawable(getResources().getDrawable(R.drawable.delete_order));
+        //}
+
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         initView();
         arrayList = new ArrayList<>();
@@ -82,6 +88,19 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+    }
+    protected void setSystemBarTintDrawable(Drawable tintDrawable) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            SystemBarTintManager mTintManager = new SystemBarTintManager(this);
+            if (tintDrawable != null) {
+                mTintManager.setStatusBarTintEnabled(true);
+                mTintManager.setTintDrawable(tintDrawable);
+            } else {
+                mTintManager.setStatusBarTintEnabled(false);
+                mTintManager.setTintDrawable(null);
+            }
+
+        }
     }
 
 }
